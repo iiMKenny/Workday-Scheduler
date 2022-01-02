@@ -4,7 +4,7 @@ body {
     line-height: 1;
   }
   
-  textarea{
+  textarea {
     background: transparent;
     border: none;
     resize: none;
@@ -15,14 +15,17 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: lightblue;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
   }
   
   .description{
+      margin: 20px;
+      padding: 10px;
     white-space: pre-wrap;
+    background-color: transparent;
   }
   
   .time-block{
@@ -40,6 +43,7 @@ body {
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #000000;
+    padding-top: 32px;
   }
   
   .past {
@@ -61,11 +65,12 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: lightblue;
     color: white;
   }
   
-  .saveBtn i:hover {
+  .saveBtn:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+    color:black
   }
